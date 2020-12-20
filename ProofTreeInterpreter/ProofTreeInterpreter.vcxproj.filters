@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Template">
+      <UniqueIdentifier>{01726bf7-275a-48d4-8e49-bfb78fd51cd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Template">
+      <UniqueIdentifier>{f055b7b1-4151-404d-81b3-2307e0db0428}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BON">
+      <UniqueIdentifier>{baf6aa3b-6fb1-4543-9a7b-47c5d69c75a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BON">
+      <UniqueIdentifier>{0d98cd61-b5ef-4355-bb80-0d9142043ed0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AST">
+      <UniqueIdentifier>{6fdff3a9-f4c0-49ee-8761-201a0db34e0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AST">
+      <UniqueIdentifier>{88ba49a0-6db2-4830-9ec8-f08b444781ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tebleaux">
+      <UniqueIdentifier>{b62e984e-ce44-48f4-a094-39d5b2d5bbbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tableaux">
+      <UniqueIdentifier>{80662d3d-5969-446c-ae5c-28748961e05a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(GME_ROOT)\SDK\BON\Common\BON.cpp">
+      <Filter>Source Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="BON2Component.cpp">
+      <Filter>Source Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="$(GME_ROOT)\SDK\BON\Common\BONImpl.cpp">
+      <Filter>Source Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="$(GME_ROOT)\SDK\BON\Common\ComHelp.cpp">
+      <Filter>Source Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="$(GME_ROOT)\SDK\BON\Common\Common.cpp">
+      <Filter>Source Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="$(GME_ROOT)\SDK\BON\Common\ComponentDll.cpp">
+      <Filter>Source Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="$(GME_ROOT)\SDK\BON\Common\ComponentObj.cpp">
+      <Filter>Source Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="$(GME_ROOT)\SDK\BON\Common\Console.cpp">
+      <Filter>Source Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="$(GME_ROOT)\SDK\BON\Common\Events.cpp">
+      <Filter>Source Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="$(GME_ROOT)\SDK\BON\Common\Exceptions.cpp">
+      <Filter>Source Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="$(GME_ROOT)\SDK\BON\Common\Extensions.cpp">
+      <Filter>Source Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="$(GME_ROOT)\SDK\BON\Common\Formatter.cpp">
+      <Filter>Source Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="$(GME_ROOT)\SDK\BON\Common\MON.cpp">
+      <Filter>Source Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="$(GME_ROOT)\SDK\BON\Common\MONImpl.cpp">
+      <Filter>Source Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="$(GME_ROOT)\SDK\BON\Common\Utils.cpp">
+      <Filter>Source Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="ProofTreeBON\Connection.cpp">
+      <Filter>Source Files\BON</Filter>
+    </ClCompile>
+    <ClCompile Include="ProofTreeBON\Connective.cpp">
+      <Filter>Source Files\BON</Filter>
+    </ClCompile>
+    <ClCompile Include="ProofTreeBON\Formula.cpp">
+      <Filter>Source Files\BON</Filter>
+    </ClCompile>
+    <ClCompile Include="ProofTreeBON\Sentence.cpp">
+      <Filter>Source Files\BON</Filter>
+    </ClCompile>
+    <ClCompile Include="ProofTreeBON\Tree.cpp">
+      <Filter>Source Files\BON</Filter>
+    </ClCompile>
+    <ClCompile Include="ProofTreeBonX.cpp">
+      <Filter>Source Files\BON</Filter>
+    </ClCompile>
+    <ClCompile Include="ProofTreeBON\BONNode.cpp">
+      <Filter>Source Files\BON</Filter>
+    </ClCompile>
+    <ClCompile Include="ProofTreeAST\BinaryFormula.cpp">
+      <Filter>Source Files\AST</Filter>
+    </ClCompile>
+    <ClCompile Include="ProofTreeAST\Parser.cpp">
+      <Filter>Source Files\AST</Filter>
+    </ClCompile>
+    <ClCompile Include="ProofTreeAST\ConnectiveAST.cpp">
+      <Filter>Source Files\AST</Filter>
+    </ClCompile>
+    <ClCompile Include="ProofTreeAST\SentenceAST.cpp">
+      <Filter>Source Files\AST</Filter>
+    </ClCompile>
+    <ClCompile Include="Tableaux\Tableaux.cpp">
+      <Filter>Source Files\Tableaux</Filter>
+    </ClCompile>
+    <ClCompile Include="Tableaux\Solver.cpp">
+      <Filter>Source Files\Tableaux</Filter>
+    </ClCompile>
+    <ClCompile Include="ProofTreeAST\AtomicFormula.cpp">
+      <Filter>Source Files\AST</Filter>
+    </ClCompile>
+    <ClCompile Include="Tableaux\TableauxRenderer.cpp">
+      <Filter>Source Files\Tableaux</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(GME_ROOT)\SDK\BON\Common\BON.h">
+      <Filter>Header Files\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="BON2Component.h">
+      <Filter>Header Files\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="$(GME_ROOT)\SDK\BON\Common\BONImpl.h">
+      <Filter>Header Files\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="$(GME_ROOT)\SDK\BON\Common\ComHelp.h">
+      <Filter>Header Files\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="$(GME_ROOT)\SDK\BON\Common\Common.h">
+      <Filter>Header Files\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentConfig.h">
+      <Filter>Header Files\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="$(GME_ROOT)\SDK\BON\Common\ComponentDll.h">
+      <Filter>Header Files\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="$(GME_ROOT)\SDK\BON\Common\ComponentObj.h">
+      <Filter>Header Files\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="$(GME_ROOT)\SDK\BON\Common\Console.h">
+      <Filter>Header Files\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="$(GME_ROOT)\SDK\BON\Common\Events.h">
+      <Filter>Header Files\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="$(GME_ROOT)\SDK\BON\Common\Exceptions.h">
+      <Filter>Header Files\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="$(GME_ROOT)\SDK\BON\Common\Extensions.h">
+      <Filter>Header Files\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="$(GME_ROOT)\SDK\BON\Common\Formatter.h">
+      <Filter>Header Files\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="$(GME_ROOT)\SDK\BON\Common\GMECOM.H">
+      <Filter>Header Files\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="$(GME_ROOT)\SDK\BON\Common\MON.h">
+      <Filter>Header Files\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="$(GME_ROOT)\SDK\BON\Common\MONImpl.h">
+      <Filter>Header Files\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="$(GME_ROOT)\SDK\BON\Common\targetver.h">
+      <Filter>Header Files\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="$(GME_ROOT)\SDK\BON\Common\Utils.h">
+      <Filter>Header Files\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="ProofTreeBON\BiConditional.h">
+      <Filter>Header Files\BON</Filter>
+    </ClInclude>
+    <ClInclude Include="ProofTreeBON\Conditional.h">
+      <Filter>Header Files\BON</Filter>
+    </ClInclude>
+    <ClInclude Include="ProofTreeBON\Conjunction.h">
+      <Filter>Header Files\BON</Filter>
+    </ClInclude>
+    <ClInclude Include="ProofTreeBON\Connection.h">
+      <Filter>Header Files\BON</Filter>
+    </ClInclude>
+    <ClInclude Include="ProofTreeBON\Connective.h">
+      <Filter>Header Files\BON</Filter>
+    </ClInclude>
+    <ClInclude Include="ProofTreeBON\Disjunction.h">
+      <Filter>Header Files\BON</Filter>
+    </ClInclude>
+    <ClInclude Include="ProofTreeBON\Formula.h">
+      <Filter>Header Files\BON</Filter>
+    </ClInclude>
+    <ClInclude Include="ProofTreeBON\Proposition.h">
+      <Filter>Header Files\BON</Filter>
+    </ClInclude>
+    <ClInclude Include="ProofTreeBON\Sentence.h">
+      <Filter>Header Files\BON</Filter>
+    </ClInclude>
+    <ClInclude Include="ProofTreeBON\Tree.h">
+      <Filter>Header Files\BON</Filter>
+    </ClInclude>
+    <ClInclude Include="ProofTreeVisitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProofTreeBonX.h">
+      <Filter>Header Files\BON</Filter>
+    </ClInclude>
+    <ClInclude Include="ProofTreeBON\BONNode.h">
+      <Filter>Header Files\BON</Filter>
+    </ClInclude>
+    <ClInclude Include="ProofTreeAST\AbstractSyntaxTree.h">
+      <Filter>Header Files\AST</Filter>
+    </ClInclude>
+    <ClInclude Include="ProofTreeAST\AtomicFormula.h">
+      <Filter>Header Files\AST</Filter>
+    </ClInclude>
+    <ClInclude Include="ProofTreeAST\BinaryFormula.h">
+      <Filter>Header Files\AST</Filter>
+    </ClInclude>
+    <ClInclude Include="ProofTreeAST\Connective.h">
+      <Filter>Header Files\AST</Filter>
+    </ClInclude>
+    <ClInclude Include="ProofTreeAST\Parser.h">
+      <Filter>Header Files\AST</Filter>
+    </ClInclude>
+    <ClInclude Include="ProofTreeAST\Sentence.h">
+      <Filter>Header Files\AST</Filter>
+    </ClInclude>
+    <ClInclude Include="Tableaux\Tableaux.h">
+      <Filter>Header Files\Tebleaux</Filter>
+    </ClInclude>
+    <ClInclude Include="Tableaux\Solver.h">
+      <Filter>Header Files\Tebleaux</Filter>
+    </ClInclude>
+    <ClInclude Include="Tableaux\TableauxRenderer.h">
+      <Filter>Header Files\Tebleaux</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="CompIcon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Component.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Component.def">
+      <Filter>Source Files\Template</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="$(GME_ROOT)\SDK\BON\Common\ComponentLib.idl">
+      <Filter>Source Files\Template</Filter>
+    </Midl>
+  </ItemGroup>
+</Project>

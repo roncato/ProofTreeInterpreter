@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# Workspace
+*.sdf
+*/Debug
+Debug/
+ipch/
